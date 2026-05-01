@@ -1,0 +1,32 @@
+/** รูปและมีเดียจากเว็บไซต์หลัก — โหลดโดยตรงจาก 5stars.tokyo (ได้รับอนุญาตจากผู้ใช้งาน) */
+export const ORIGIN = 'https://5stars.tokyo';
+
+export const assets = {
+  logoLight: `${ORIGIN}/wp-content/uploads/2025/01/logo2.png`,
+  logoDark: `${ORIGIN}/wp-content/uploads/2025/01/logo1.png`,
+  logoFooter: `${ORIGIN}/wp-content/uploads/2025/01/logo-w.png`,
+  heroNight: `${ORIGIN}/wp-content/uploads/2025/01/PTK_Exterior-Night-Panoramic1-3-scaled.jpg`,
+  entrance: `${ORIGIN}/wp-content/uploads/2025/01/エントランス2.jpg`,
+  clinicInteriorA: `${ORIGIN}/wp-content/uploads/2025/07/2025032714-74_02362-scaled.jpg`,
+  clinicInteriorB: `${ORIGIN}/wp-content/uploads/2025/07/2025032714-74_02396-scaled.jpg`,
+  cpc: `${ORIGIN}/wp-content/uploads/2025/01/CPC1-scaled.jpg`,
+  wellnessRoom: `${ORIGIN}/wp-content/uploads/2025/01/2024032914_74_00988_189-scaled.jpg`,
+  promoWellness: `${ORIGIN}/wp-content/uploads/2025/01/image5-715x410.jpg`,
+  promoCheckup: `${ORIGIN}/wp-content/uploads/2025/03/full-shot-patient-getting-ct-scan-1536x1024-1-715x410.jpg`,
+  promoGuest: `${ORIGIN}/wp-content/uploads/2026/01/5329-715x410.jpg`,
+  treatmentRoom: `${ORIGIN}/wp-content/uploads/2025/01/施術室-715x410.jpg`,
+  entranceThumb: `${ORIGIN}/wp-content/uploads/2025/01/エントランス１-715x410.jpg`,
+  peninsulaThumb: `${ORIGIN}/wp-content/uploads/2025/01/PTK_Exterior-Night-Panoramic1-715x410.jpg`,
+  treatmentFull: `${ORIGIN}/wp-content/uploads/2025/01/施術室.jpg`,
+  promoBannerHotel: `${ORIGIN}/wp-content/uploads/2026/01/image1-2.jpg`,
+  promoBarPrevention: `${ORIGIN}/wp-content/uploads/2026/01/pre-logo-1024x51.png`,
+  promoBarBio: `${ORIGIN}/wp-content/uploads/2026/01/bio-logo-188x300.png`,
+  videoIntro: `${ORIGIN}/wp-content/uploads/2025/01/5starmedicalclub.mp4`,
+  groupLogoStrip: `${ORIGIN}/wp-content/uploads/2025/01/logo3.png`,
+  interviewTakahara: `${ORIGIN}/wp-content/uploads/2025/07/★高原先生_DSC06749-715x410.jpg`,
+  interviewFukuzawa: `${ORIGIN}/wp-content/uploads/2025/01/深沢先生-715x410.jpg`,
+  interviewCell: `${ORIGIN}/wp-content/uploads/2025/01/cell-715x410.jpg`,
+  interviewTsukada: `${ORIGIN}/wp-content/uploads/2025/01/塚田先生２-715x410.jpg`,
+  interviewKato: `${ORIGIN}/wp-content/uploads/2025/03/DSC06624s-715x410.jpg`,
+  magazineAgeless: `${ORIGIN}/wp-content/uploads/2026/01/logo-150x150.jpg`,
+} as const;
